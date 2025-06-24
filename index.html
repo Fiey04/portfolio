@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hafizul Hafiz - Portfolio</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top glass-nav">
+        <div class="container">
+            <a class="navbar-brand gradient-text fw-bold fs-3" href="#home">
+                <i class="fas fa-leaf"></i>Portfolio
+            </a>
+
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link nav-hover active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-hover" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-hover" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-hover" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-hover" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section min-vh-100 d-flex align-items-center">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="fade-right" data-aos-duration="1000">
+                    <div class="hero-content">
+                        <div class="profile-container mb-4 d-lg-none text-center">
+                            <img src="images/profile.png" alt="Profile" class="profile-img bounce-slow">
+                            <div class="profile-ring"></div>
+                        </div>
+                        <h1 class="display-4 fw-bold mb-4">
+                            Hello, I'm
+                            <span class="gradient-text typing-text">Hafizul Hafiz</span>
+                        </h1>
+                        <p class="mb-5 text-secondary">
+                            I create beautiful, functional, and user-centered digital experiences.
+                            Passionate about clean code and innovative design solutions that make a difference.
+                        </p>
+                        <div class="hero-buttons">
+                            <a href="#projects" class="btn btn-primary btn-lg me-3 pulse-btn">
+                                <i class="fas fa-eye me-2"></i>View My Work
+                                <i class="fas fa-arrow-right ms-2 arrow-bounce"></i>
+                            </a>
+                            <a href="#contact" class="btn btn-outline-success btn-lg hover-fill">
+                                <i class="fas fa-heart me-2"></i>Get In Touch
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 d-none d-lg-block" data-aos="fade-left" data-aos-duration="1000">
+                    <div class="hero-image text-center">
+                        <div class="profile-container">
+                            <img src="images/profile.png" alt="Profile" class="profile-img bounce-slow">
+                            <div class="profile-ring"></div>
+                            <div class="profile-dots">
+                                <div class="dot dot-1"></div>
+                                <div class="dot dot-2"></div>
+                                <div class="dot dot-3"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scroll Indicator -->
+        <div class="scroll-indicator">
+            <div class="scroll-arrow bounce-arrow">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5 section-padding bg-light-green">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">About Me</h2>
+                    <div class="title-underline"></div>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4" data-aos="fade-right" data-aos-duration="1000">
+                    <div class="about-image">
+                        <img src="images/profile2.jpg" alt="About Me" class="img-fluid hover-scale">
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left" data-aos-duration="1000">
+                    <div class="about-content">
+                        <h3 class="gradient-text mb-4">Computer Science Student Specializing in Networking</h3>
+                        <p class="mb-4 text-secondary" style="text-align: justify;">
+                            I am Hafizul Hafiz bin Zulkifli, a 21-year-old from Pekan, Pahang. I completed my secondary
+                            education at SMK Sultan Ahmad and continued with STPM before pursuing a Bachelor's Degree in
+                            Computer Science, majoring in Networking, at Universiti Teknikal Malaysia Melaka (UTeM).
+                            I am passionate about technology and networking, and I am continuously working to improve my
+                            skills and knowledge in the field
+                        </p>
+                        <p class="mb-4 text-secondary" style="text-align: justify;">
+                            I am a joyful and enthusiastic individual who takes pride in completing tasks on time.
+                            My curiosity about technology drives me to explore new tools, trends, and innovations.
+                            I enjoy learning new things and continuously seek opportunities to improve myself, both
+                            personally and professionally. This mindset helps me stay motivated and adaptable in the
+                            fast-evolving field of technology.
+                        </p>
+
+                        <div class="skills-tags">
+                            <span class="skill-tag bounce-in" data-aos="zoom-in" data-aos-delay="100">
+                                <i class="fas fa-lightbulb me-2"></i>Problem Solver
+                            </span>
+                            <span class="skill-tag bounce-in" data-aos="zoom-in" data-aos-delay="200">
+                                <i class="fas fa-users me-2"></i>Team Player
+                            </span>
+                            <span class="skill-tag bounce-in" data-aos="zoom-in" data-aos-delay="300">
+                                <i class="fas fa-brain me-2"></i>Creative Thinker
+                            </span>
+                            <span class="skill-tag bounce-in" data-aos="zoom-in" data-aos-delay="400">
+                                <i class="fas fa-search me-2"></i>Detail Oriented
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5 section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">Skills & Expertise</h2>
+                    <div class="title-underline"></div>
+                    <p class="text-secondary mt-3">Comprehensive technical proficiency across networking, multimedia,
+                        and analytical tools</p>
+                </div>
+            </div>
+
+            <!-- Individual Skill Cards -->
+            <div class="row g-4">
+                <!-- Cisco Packet Tracer Skill -->
+                <div class="col-lg-6 col-xl-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <div class="skill-icon cisco-icon">
+                                <i class="fas fa-network-wired"></i>
+                            </div>
+                            <h4 class="skill-title">Cisco Packet Tracer</h4>
+                            <div class="skill-percentage">65%</div>
+                        </div>
+                        <div class="skill-progress-container">
+                            <div class="skill-progress cisco-progress" data-width="65"></div>
+                        </div>
+                        <div class="skill-details">
+                            <p class="skill-description">
+                                Proficient in network simulation and design using Cisco Packet Tracer. Experienced in
+                                configuring routers, switches, and implementing various network topologies. Successfully
+                                completed multiple networking projects including VLAN configuration, routing protocols 
+                                and network troubleshooting scenarios. Applied skills in academic
+                                coursework and practical lab exercises for network infrastructure design.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Adobe Animate Skill -->
+                <div class="col-lg-6 col-xl-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <div class="skill-icon adobe-icon">
+                                <i class="fas fa-play-circle"></i>
+                            </div>
+                            <h4 class="skill-title">Adobe Animate</h4>
+                            <div class="skill-percentage">60%</div>
+                        </div>
+                        <div class="skill-progress-container">
+                            <div class="skill-progress adobe-progress" data-width="60"></div>
+                        </div>
+                        <div class="skill-details">
+                            <p class="skill-description">
+                                Competent in creating interactive animations and multimedia content using Adobe Animate.
+                                Skilled in timeline animation, character rigging, and creating engaging visual content
+                                for web and mobile platforms. Experience includes developing animations.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- MARS45 Skill -->
+                <div class="col-lg-6 col-xl-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <div class="skill-icon mars-icon">
+                                <i class="fas fa-microchip"></i>
+                            </div>
+                            <h4 class="skill-title">MARS45</h4>
+                            <div class="skill-percentage">78%</div>
+                        </div>
+                        <div class="skill-progress-container">
+                            <div class="skill-progress mars-progress" data-width="78"></div>
+                        </div>
+                        <div class="skill-details">
+                            <p class="skill-description">
+                                Advanced proficiency in MIPS Assembly Language programming using MARS (MIPS Assembler
+                                and Runtime Simulator). Experienced in low-level programming concepts, memory
+                                management, and processor architecture understanding. Successfully implemented complex
+                                algorithms including sorting routines, mathematical computations, and system calls.
+                                Applied knowledge in computer architecture coursework and assembly language optimization
+                                projects.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Multimedia Logic Skill -->
+                <div class="col-lg-6 col-xl-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <div class="skill-icon multimedia-icon">
+                                <i class="fas fa-sitemap"></i>
+                            </div>
+                            <h4 class="skill-title">Multimedia Logic</h4>
+                            <div class="skill-percentage">80%</div>
+                        </div>
+                        <div class="skill-progress-container">
+                            <div class="skill-progress multimedia-progress" data-width="80"></div>
+                        </div>
+                        <div class="skill-details">
+                            <p class="skill-description">
+                                Highly skilled in digital logic design and circuit simulation using Multimedia Logic
+                                software. Proficient in designing and analyzing combinational and sequential circuits,
+                                implementing Boolean algebra concepts, and creating complex digital systems. Experience
+                                includes designing counters, multiplexers, decoders, and memory circuits. Applied
+                                expertise in digital electronics coursework and logic circuit optimization projects.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Microsoft Excel Skill -->
+                <div class="col-lg-6 col-xl-4" data-aos="fade-up" data-aos-delay="500">
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <div class="skill-icon excel-icon">
+                                <i class="fas fa-table"></i>
+                            </div>
+                            <h4 class="skill-title">Microsoft Excel</h4>
+                            <div class="skill-percentage">90%</div>
+                        </div>
+                        <div class="skill-progress-container">
+                            <div class="skill-progress excel-progress" data-width="90"></div>
+                        </div>
+                        <div class="skill-details">
+                            <p class="skill-description">
+                                Expert-level proficiency in Microsoft Excel with advanced knowledge of formulas,
+                                functions, and data analysis tools. Skilled in creating complex spreadsheets.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- C++ Programming Skill -->
+                <div class="col-lg-6 col-xl-4" data-aos="fade-up" data-aos-delay="600">
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <div class="skill-icon cpp-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <h4 class="skill-title">C++ Programming</h4>
+                            <div class="skill-percentage">85%</div>
+                        </div>
+                        <div class="skill-progress-container">
+                            <div class="skill-progress cpp-progress" data-width="85"></div>
+                        </div>
+                        <div class="skill-details">
+                            <p class="skill-description">
+                                Strong proficiency in C++ programming with experience in object-oriented programming,
+                                data structures, and algorithm implementation. Skilled in memory management, template
+                                programming, and STL usage. Applied in academic coursework, competitive programming, and
+                                system-level application development.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- HTML/CSS Skill -->
+                <div class="col-lg-6 col-xl-4" data-aos="fade-up" data-aos-delay="700">
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <div class="skill-icon html-icon">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                            <h4 class="skill-title">HTML/CSS</h4>
+                            <div class="skill-percentage">88%</div>
+                        </div>
+                        <div class="skill-progress-container">
+                            <div class="skill-progress html-progress" data-width="88"></div>
+                        </div>
+                        <div class="skill-details">
+                            <p class="skill-description">
+                                Expert knowledge in HTML and CSS styling including Flexbox, Grid,
+                                animations, and responsive design. Experienced in modern CSS frameworks, preprocessors,
+                                and cross-browser compatibility. Applied in web development projects and responsive user
+                                interface design.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- JavaScript Skill -->
+                <div class="col-lg-6 col-xl-4" data-aos="fade-up" data-aos-delay="800">
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <div class="skill-icon js-icon">
+                                <i class="fab fa-js-square"></i>
+                            </div>
+                            <h4 class="skill-title">JavaScript</h4>
+                            <div class="skill-percentage">82%</div>
+                        </div>
+                        <div class="skill-progress-container">
+                            <div class="skill-progress js-progress" data-width="82"></div>
+                        </div>
+                        <div class="skill-details">
+                            <p class="skill-description">
+                                Experience with interactive web application development. Applied in dynamic web projects
+                                and client-side functionality implementation.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5 section-padding bg-light-green">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">Featured Projects</h2>
+                    <div class="title-underline"></div>
+                </div>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/img1.png" alt="Cisco Packet Tracer" class="img-fluid">
+                        </div>
+                        <div class="project-content">
+                            <h5 class="project-title">Cisco Packet Tracer</h5>
+                            <p class="project-description">
+                                Comprehensive network topology design using Cisco Packet Tracer, implementing
+                                enterprise-level routing and switching configurations with VLAN segmentation and
+                                security protocols.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Cisco Packet Tracer</span>
+                                <span class="tech-tag">Networking</span>
+                                <span class="tech-tag">VLAN</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/img2.png" alt="Calculator" class="img-fluid">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://fiey04.github.io/CalculatorFie/" class="project-link"
+                                        data-bs-toggle="tooltip" title="Live Demo">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h5 class="project-title">Calculator</h5>
+                            <p class="project-description" style="text-align: justify;">
+                                This project is a basic calculator built using HTML, CSS, and JavaScript.
+                                It allows users to perform simple arithmetic operations such as addition,
+                                subtraction, multiplication, and division. The interface is designed with HTML
+                                and styled with CSS, while all the calculation logic is handled using JavaScript
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">CSS</span>
+                                <span class="tech-tag">HTML</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/img3.png" alt="SPPIM" class="img-fluid">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://webapp.utem.edu.my/student/bitc/B032410107/web/index.php"
+                                        class="project-link" data-bs-toggle="tooltip" title="Live Demo">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h5 class="project-title">SPPIM Website</h5>
+                            <p class="project-description">
+                                The Sistem Pra Perkahwinan website helps users register and check pre-marriage course
+                                details online.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">CSS</span>
+                                <span class="tech-tag">PHP</span>
+                                <span class="tech-tag">HTML</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/img4.png" alt="Student Record Management System" class="img-fluid">
+                        </div>
+                        <div class="project-content">
+                            <h5 class="project-title">Student Record Management System</h5>
+                            <p class="project-description">
+                                Student Record Management System used to store, manage, and access student information
+                                such as name, student ID, exam results, attendance, and personal details in an organized
+                                and efficient way.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">CPP</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="500">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/img5.png" alt="Adobe animate" class="img-fluid">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://youtu.be/ZPzJUz5tRW0?si=E6hZyICQXI4dhWrA" class="project-link"
+                                        data-bs-toggle="tooltip" title="Live Demo">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h5 class="project-title">Animation</h5>
+                            <p class="project-description">
+                                Using Adobe Animate to make stop motion video allows you to turn a series of individual
+                                photos into a smooth animation. By importing the images into the timeline, can
+                                adjust the frame rate, add sound, text, and effects to enhance your project.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Adobe Animate</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="600">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="images/img6.png" alt="Adobe Audition" class="img-fluid">
+                            <div class="project-overlay">
+                                <div class="project-links">
+                                    <a href="https://youtu.be/GJ5jZM7hSX8?si=Okv08SjE3cKN2OTP" class="project-link"
+                                        data-bs-toggle="tooltip" title="Live Demo">
+                                        <i class="fas fa-external-link-alt"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h5 class="project-title">Audio</h5>
+                            <p class="project-description">
+                                Adobe Audition used to record, edit, mix, and
+                                clean up sound. It's perfect for improving audio quality, adding sound effects, and
+                                syncing audio with video or animation projects.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Adobe Audition</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <div class="title-underline"></div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="contact-info">
+                        <h3 class="gradient-text mb-4 text-center">Let's Work Together</h3>
+                        <p class="mb-5 text-secondary text-center">
+                            I'm always interested in new opportunities and exciting projects.
+                            Whether you have a question or just want to say hi, feel free to reach out!
+                        </p>
+
+                        <div class="row g-4">
+                            <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                                <div class="contact-item text-center">
+                                    <div class="contact-icon mx-auto mb-3">
+                                        <i class="fas fa-envelope"></i>
+                                    </div>
+                                    <div class="contact-details">
+                                        <h6>Email</h6>
+                                        <p>hafizulhafiz@email.com</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                                <div class="contact-item text-center">
+                                    <div class="contact-icon mx-auto mb-3">
+                                        <i class="fas fa-phone"></i>
+                                    </div>
+                                    <div class="contact-details">
+                                        <h6>Phone</h6>
+                                        <p>+6011 2807 1885</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                                <div class="contact-item text-center">
+                                    <div class="contact-icon mx-auto mb-3">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                    </div>
+                                    <div class="contact-details">
+                                        <h6>Location</h6>
+                                        <p>Pekan, Pahang, Malaysia</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="social-links mt-5 text-center" data-aos="fade-up" data-aos-delay="400">
+                            <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" class="social-link">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://x.com/hpjulhpiz?t=toKZLAsReGlF6yFamaX1xw&s=08" class="social-link">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="https://www.instagram.com/fieyzul._/profilecard/?igsh=MWZhd2gyenk2ZGltYg==" class="social-link">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 text-center">
+        <div class="container">
+            <p class="mb-0">
+                © 2024 Hafizul Hafiz. All rights reserved. Built with
+                <i class="fas fa-heart"></i> and lots of coffee
+                <i class="fas fa-coffee"></i>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- AOS Animation JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Typed.js for typing animation -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>
